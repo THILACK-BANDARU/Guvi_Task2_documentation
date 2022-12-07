@@ -1,0 +1,58 @@
+ul.topic {
+  list-style-type: symbols(+);
+}
+h3 {
+  background-color: #ffbb00;
+  /* position: absolute; */
+}
+
+.col-4 {
+  background-color: #edededa9;
+  /* padding: 5px; */
+  /* width: 200px; */
+  /* height: 600px; */
+  /* border: 1px dotted black; */
+  /* overflow: scroll; */
+}
+.col-8 {
+  background-color: #eee;
+  width: 200px;
+  height: 550px;
+  border: 5px solid black;
+  overflow: scroll;
+}
+
+.topic {
+  /* background: rgb(206, 203, 203); */
+  text-align: left;
+}
+.topic:hover {
+  background-color: #ffbb00;
+}
+
+.row {
+  position: relative;
+}
+.vertical-nav {
+  position: static;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
